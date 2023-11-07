@@ -15,7 +15,7 @@ class Signup(Resource):
     """
     example signup url: http://127.0.0.1:5000/signup
     """
-    def get(self):
+    def post(self):
         parser = RequestParser()
         parser.add_argument('username', required=True, help="username is required")
         parser.add_argument('password', required=True, help="password is required")
