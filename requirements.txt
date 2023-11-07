@@ -1,0 +1,6 @@
+flask-jwt-extended
+flask-restful
+Flask-SQLAlchemy
+flask_marshmallow
+marshmallow-sqlalchemy
+bcrypt
